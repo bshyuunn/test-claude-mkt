@@ -15,7 +15,7 @@
       },
       "source": {
         "source": "npm",
-        "package": "file:/tmp/test-pkg-published"
+        "package": "file:./plugins/test-plugin"
       },
       "strict": true
     }

