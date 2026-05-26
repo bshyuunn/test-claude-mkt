@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "name": "test-marketplace",
+  "owner": {
+    "name": "Test User"
+  },
+  "plugins": [
+    {
+      "id": "test-plugin",
+      "name": "test-plugin",
+      "version": "1.0.0",
+      "description": "Standard test plugin",
+      "author": {
+        "name": "Test User"
+      },
+      "source": {
+        "source": "npm",
+        "package": "file:/tmp/test-pkg-published"
+      },
+      "strict": true
+    }
+  ]
+}
