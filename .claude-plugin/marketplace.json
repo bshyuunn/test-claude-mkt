@@ -13,10 +13,7 @@
       "author": {
         "name": "Test User"
       },
-      "source": {
-        "source": "npm",
-        "package": "file:./plugins/test-plugin"
-      },
+      "source": "./plugins/test-plugin",
       "strict": true
     }
   ]
